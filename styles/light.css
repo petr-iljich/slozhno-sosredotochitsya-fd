@@ -2,6 +2,7 @@
  :root.theme-light {
   /* Переменные светлой темы */    
 }
+
 /* Остальные стили, только при необходимости */
 @media (prefers-color-scheme: light) {
   :root {
@@ -19,6 +20,19 @@
   --bg-color: #FFF1F7;
   --bg-decor-color: #ff8dcb;
   --background-image: url(../images/cover-image-light.png);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --main-color: #353430;
+  --title-color: #FFC2E6;
+  --decor-color: #FF8DCB;
+  --accent-color: var(--main-color);
+  --outline-hover-color: rgba(50, 49, 45, 0.4);
+  --bg-color: #FFF1F7;
+  --bg-decor-color: #ff8dcb;
+  --background-image: url(../images/cover-image-light.png);
+  }
 }
 
 .theme-light .page {
