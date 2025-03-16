@@ -1,16 +1,3 @@
-/*
- :root.theme-light {
-  /* Переменные светлой темы */    
-}
-
-/* Остальные стили, только при необходимости */
-@media (prefers-color-scheme: light) {
-  :root {
-    /* Дублируем переменные светлой темы */    
-  }
-}
-/* Остальные стили, только при необходимости */
-
 :root.theme-light {
   --main-color: #353430;
   --title-color: #FFC2E6;
@@ -33,6 +20,50 @@
   --bg-decor-color: #ff8dcb;
   --background-image: url(../images/cover-image-light.png);
   }
+
+  .theme-auto .page {
+    color: var(--main-color);
+    background-image: var(--background-image);
+    background-color: var(--bg-color);
+  }
+  
+  .theme-auto .header__decor {
+    display: none;
+  }
+  
+  .theme-auto .header__theme-menu-button {
+    color: var(--main-color);
+  }
+  
+  .theme-auto .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--main-color);
+  }
+  
+  .theme-auto .header__theme-menu-button_active {
+    outline: 1px solid var(--main-color);
+  }
+  
+  .theme-auto .title-decor {
+    color: var(--main-color);
+  }
+  
+  .theme-auto .section-title {
+    color: var(--main-color);
+  }
+  
+  .theme-auto .text-link:focus-visible {
+    outline: 1px solid var(--main-color);
+  }
+  
+  .theme-auto .decorated-zone::before {
+    border-top: 1px solid var(--main-color);
+    border-right: 1px solid var(--main-color);
+  }
+  
+  .theme-auto .decorated-zone::after {
+    border-bottom: 1px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
+  } 
 }
 
 .theme-light .page {
