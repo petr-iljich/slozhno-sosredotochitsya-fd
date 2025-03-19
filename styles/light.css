@@ -2,8 +2,9 @@
   --main-color: #353430;
   --title-color: #FFC2E6;
   --decor-color: #FF8DCB;
+  --button-color: #353430;
   --section-title-color: #353430;
-  --accent-color: var(--main-color);
+  --accent-color: #353430;
   --outline-hover-color: rgba(50, 49, 45, 0.4);
   --border-color: #353430;
   --bg-color: #FFF1F7;
@@ -16,8 +17,9 @@
   --main-color: #353430;
   --title-color: #FFC2E6;
   --decor-color: #FF8DCB;
+  --button-color: #353430;
   --section-title-color: #353430;
-  --accent-color: var(--main-color);
+  --accent-color: #353430;
   --outline-hover-color: rgba(50, 49, 45, 0.4);
   --border-color: #353430;
   --bg-color: #FFF1F7;
